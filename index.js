@@ -10,7 +10,7 @@ export default class {
 		this.debug = bool;
 	}
 	sendDebug(message, color) {
-		if (debug___states || this.debug) {
+		if (window.debug___states || this.debug) {
 			console.log(`%c${message}`, `color:${color}`);
 		}
 	}
