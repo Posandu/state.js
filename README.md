@@ -5,25 +5,25 @@ State management lib
 Include the `state.js` file in your project.
 
 ```javascript
-const State = new State("name");
+const S_name = new State("name");
 const StateWithValue = new State("name","john");
 ```
 
 ## Updating states
 ```javascript
-State.set("John")
+S_name.set("John")
 ```
 
 ## Listening for changes
 ```javascript
-State.addChangeListener((value, oldValue) => {
+S_name.addChangeListener((value, oldValue) => {
      console.log(value, oldValue)
 })
 ```
 
 ## Debugging
 ```javascript
-State.setDebug(true)
+S_name.setDebug(true)
 // Only for this state
-State.setDebug(true, false)
+S_name.setDebug(true, false)
 ```
