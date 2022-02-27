@@ -1,0 +1,27 @@
+{
+	"name": "tronic247-state-js",
+	"version": "1.0.1",
+	"description": "State management library in pure javascript",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "terser --compress  --output state.js --mangle -- index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Posandu/state.js.git"
+	},
+	"keywords": [
+		"javvascript",
+		"state"
+	],
+	"author": "Posandu Mapa",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Posandu/state.js/issues"
+	},
+	"homepage": "https://github.com/Posandu/state.js#readme",
+	"dependencies": {
+		"terser": "^5.11.0"
+	}
+}
