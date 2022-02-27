@@ -1,4 +1,4 @@
-class State {
+class _State {
 	constructor(value = null) {
 		this.value = value;
 	}
@@ -40,6 +40,6 @@ class State {
 	}
 }
 
-export default function State(value) {
-	return new State(value);
+function State(value) {
+	return new _State(value);
 }
